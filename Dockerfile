@@ -1,6 +1,6 @@
 # Base image (OS)
 
-FROM python:3.9-slim
+FROM python:3.7
 
 # Working directory
 
@@ -16,7 +16,7 @@ RUN pip install -r requirements.txt
 
 # expose port 80
 
-EXPOSE 80
+EXPOSE 8000
 
 # serve the app / run the app (keep it running)
 
